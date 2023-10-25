@@ -1,12 +1,14 @@
 import React from 'react';
-import TodoForm from './components/TodoForm';
 import './App.css';
+import { TodoWrapper } from './components/TodoWrapper';
 
 function App() {
   return (
-    <div className="todo-app">
+    <div className='todo-app'>
      <h1>TO DO APP</h1>
-     <TodoForm />
+    <div className='todo-wrapper'>
+      <TodoWrapper/>
+    </div>
     </div>
   );
 }
