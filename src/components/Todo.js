@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Todo = () => {
+export const Todo = ({task}) => {
   return (
-    <div>Todo</div>
+    <div className='Todo'>
+        <p>{task.task}</p>
+    </div>
   )
 }
